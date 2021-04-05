@@ -1,0 +1,30 @@
+.hero-image {
+  background-repeat: no-repeat !important;
+  background-position: top right;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.spirit {
+  mix-blend-mode: multiply;
+  max-width: 250px;
+}
+
+.intro {
+  margin-top: 8rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 10rem;
+  }
+}
+
+.aikido-emblem {
+  width: 100px;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.vh-60 {
+  height: 60vh;
+}

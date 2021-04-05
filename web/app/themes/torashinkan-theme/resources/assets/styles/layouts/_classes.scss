@@ -1,0 +1,9 @@
+.aikido-classes-2-col {
+  column-count: 1;
+  min-height: 215px;
+
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+    column-gap: 30px;
+  }
+}

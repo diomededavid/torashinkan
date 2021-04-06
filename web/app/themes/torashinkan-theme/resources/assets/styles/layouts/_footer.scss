@@ -1,3 +1,6 @@
-footer {
-  background: var(--dark);
+.gform_button button {
+  @extend .btn;
+
+  background-color: var(--primary);
+  border-color: var(--primary);
 }

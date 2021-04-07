@@ -12,4 +12,5 @@
                   <img class="spirit ml-auto"  src="{{ get_template_directory_uri() . '/assets/images/spirit-of-tiger.svg' }}" alt="Spirit of the Tiger" />
               </div>
       </div>
+    </div>
 </section>

@@ -17,3 +17,15 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+input[type=email] {
+  width: 100% !important;
+}
+
+input[type=submit] {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-block;
+
+  width: 100% !important;
+}

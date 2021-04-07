@@ -1,4 +1,4 @@
-<section class="" style="background: linear-gradient(
+<section class="min-vh-100" style="background: linear-gradient(
   rgba(0, 0, 0, 0.4),
   rgba(0, 0, 0, 0.4)
   ), url({{get_the_post_thumbnail_url(get_the_ID(),'large')}}) no-repeat; background-size: cover;"
@@ -21,7 +21,7 @@
       </div>
     </div>
   </div>
-  <div class="block-bottom -black edge--top">
+  <div class="block-bottom -black edge--top--reverse">
     <div class="container">
       <div class="row">
         <div class="col-6  offset-6 text-right float-right">

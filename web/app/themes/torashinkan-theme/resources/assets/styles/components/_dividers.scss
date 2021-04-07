@@ -107,31 +107,18 @@
   @include angle(both, true);
 }
 
-.-berry {
-  background: #b52b4a;
-}
-
 .-black {
   background: var(--dark);
 }
 
-.-orange {
-  background: #de6628;
-}
-
-.-green {
-  background: #5e9b42;
-}
-
-// demo code below
 .block-top {
   color: white;
   margin: 0 0 200px;
   padding: 10% 20px 0;
 }
-// demo code below
+
 .block-bottom {
   color: white;
   margin: 200px 0 0;
-  padding: 14% 20px 0;
+  padding: 13% 20px 0;
 }

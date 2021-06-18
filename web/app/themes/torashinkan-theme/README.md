@@ -132,4 +132,4 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ## Repositories
 The staging server uses the staging branch the prod server uses the main branch
 Push to staging: `git push staging`
-Push to staging: `git push staging`
+Push to production: `git push prod`

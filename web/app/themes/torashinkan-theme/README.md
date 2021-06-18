@@ -118,3 +118,18 @@ Keep track of development and community news.
 * Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 * Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
 * Listen to the [Roots Radio podcast](https://roots.io/podcast/)
+
+## Git Config
+```
+[remote "prod"]
+url = torash@quinn:prod/torashinkan.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "staging"]
+url = torash@quinn:stage/torashinkan.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
+## Repositories
+The staging server uses the staging branch the prod server uses the main branch
+Push to staging: `git push staging`
+Push to staging: `git push staging`

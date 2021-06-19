@@ -1,9 +1,14 @@
 .hero-image {
   background-repeat: no-repeat !important;
   background-position: top right;
-  background-size: cover;
-  height: 100vh;
+  background-size: auto;
+  height: 85vh;
   background-attachment: fixed;
+
+  @include media-breakpoint-up(md) {
+    height: 100vh;
+    background-size: cover;
+  }
 }
 
 .spirit {
@@ -27,5 +32,9 @@
 }
 
 .vh-60 {
-  height: 50vh;
+  margin-top: 5rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 25rem;
+  }
 }

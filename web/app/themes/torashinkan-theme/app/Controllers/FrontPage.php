@@ -36,7 +36,7 @@ class FrontPage extends Controller
     {
         $args = [
             'post_type'                 => 'page',
-            'post_name__in'             => ['classes', 'instructors'],
+            'post_name__in'             => ['classes', 'instructors', 'what-is-aikido'],
             'orderby'                   => 'menu_order',
             'order' => 'ASC',
             'posts_per_page' =>         2,

@@ -120,5 +120,9 @@
 .block-bottom {
   color: white;
   margin: 200px 0 0;
-  padding: 13% 20px 0;
+  padding: 34% 20px 0;
+
+  @include media-breakpoint-up(md) {
+    padding: 13% 20px 0;
+  }
 }

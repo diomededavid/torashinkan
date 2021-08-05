@@ -1,4 +1,5 @@
-<section class="container-fluid hero-image" style="background-image: url({{ get_the_post_thumbnail_url(get_the_ID(), 'large')}});">
+<section class="container-fluid hero-image" style="background-image:
+  url({{ get_template_directory_uri() . '/assets/images/aikido-hero_2x_ldtvxx_c_scale,w_1400.jpg' }});">
     <div class="container bottom-space">
         <div class="row">
             <div class="col-lg-6 col-sm-12 text-white intro">

@@ -42,7 +42,9 @@
     "wpackagist-plugin/safe-svg": "^1.9",
     "roots/soil": "^4.0",
     "wpackagist-plugin/wordpress-seo": "^16.0",
-    "wpackagist-plugin/wp-retina-2x":"6.1.4"
+    "wpackagist-plugin/wp-retina-2x":"6.1.4",
+    "wpackagist-plugin/wp-fail2ban": "4.3.0.9",
+    "wpackagist-plugin/wp-fail2ban-addon-gravity-forms": "^1.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",

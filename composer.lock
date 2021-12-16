@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47a30338f824ed701d5645ddab2ef2c0",
+    "content-hash": "d7c349ac4fc5d2ff9e1063435ad3ce7c",
     "packages": [
         {
             "name": "composer/installers",
@@ -1090,6 +1090,42 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
+            "name": "wpackagist-plugin/wp-fail2ban",
+            "version": "4.3.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
+                "reference": "tags/4.3.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.4.3.0.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-fail2ban/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-fail2ban-addon-gravity-forms",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-fail2ban-addon-gravity-forms/",
+                "reference": "tags/1.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban-addon-gravity-forms.1.2.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-fail2ban-addon-gravity-forms/"
+        },
+        {
             "name": "wpackagist-plugin/wp-retina-2x",
             "version": "6.1.4",
             "source": {
@@ -1554,5 +1590,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

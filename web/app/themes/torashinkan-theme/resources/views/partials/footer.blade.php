@@ -1,4 +1,4 @@
-<footer class="content-info bg-dark" id="contact">
+<footer class="content-info bg-dark py-5" id="contact">
   @if(!is_home())<div class="-black edge--top--reverse"></div>@endif
   <div class="container text-white">
     <div class="row">

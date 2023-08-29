@@ -5,10 +5,10 @@
          id="about" aria-label="about">
   <div class="container my-auto">
     <div class="row min-vh-100">
-      <div class="col-sm-4 ml-auto d-flex align-items-center my-auto">
-        <img class="aaa-logo my-5"
+      <div class="col-sm-6 ml-auto d-flex align-items-center my-auto">
+        <img class="aaa-logo my-auto"
              src="{{ get_template_directory_uri() . '/assets/images/aaa-logo-white.svg' }}"
-             alt="Aikido Association of America Logo"/>
+             alt="Aikido Association of America Logo" width="353" height="361"/>
       </div>
       <div class="col-sm-6 my-auto" style="background: linear-gradient(
         rgba(0, 0, 0, 0.6),

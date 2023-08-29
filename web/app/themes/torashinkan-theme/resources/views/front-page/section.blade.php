@@ -3,8 +3,7 @@
 <section class="min-vh-100" style="background: linear-gradient(
   rgba(0, 0, 0, 0.4),
   rgba(0, 0, 0, 0.4)
-  ), url({{get_the_post_thumbnail_url(get_the_ID(),'large')}}) no-repeat; background-size: cover;"
-         id="{{  strtolower( $title ) }}">
+  ), url({{get_the_post_thumbnail_url(get_the_ID(),'large')}}) no-repeat; background-size: cover;" id="{{  strtolower( $title ) }}">
   <div class="block-top -black edge--bottom">
     <div class="container">
       <div class="row">

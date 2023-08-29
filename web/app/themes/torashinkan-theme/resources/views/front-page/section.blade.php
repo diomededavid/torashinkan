@@ -23,13 +23,4 @@
       </div>
     </div>
   </div>
-  <div class="block-bottom -black edge--top--reverse">
-    <div class="container">
-      <div class="row">
-        <div class="col-6  offset-6 text-right float-right">
-          {!! get_the_excerpt() !!}
-        </div>
-      </div>
-    </div>
-  </div>
 </section>

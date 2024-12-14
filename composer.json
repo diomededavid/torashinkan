@@ -28,6 +28,18 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "the-events-calendar/the-events-calendar",
+        "version": "6.0.13.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.0.13.1.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "require": {
@@ -41,9 +53,10 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/safe-svg": "^1.9",
     "roots/soil": "^4.0",
-    "wpackagist-plugin/wordpress-seo": "^16.0",
-    "wpackagist-plugin/wp-retina-2x":"6.1.4",
-    "wpackagist-plugin/wp-fail2ban": "4.3.0.9",
+    "the-events-calendar/the-events-calendar": "^6.0.13.1",
+    "wpackagist-plugin/wordpress-seo":"^24.0",
+    "wpackagist-plugin/wp-retina-2x":"^6.1.4",
+    "wpackagist-plugin/wp-fail2ban": "^4.3.0.9",
     "wpackagist-plugin/wp-fail2ban-addon-gravity-forms": "^1.2"
   },
   "require-dev": {
@@ -52,7 +65,11 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
